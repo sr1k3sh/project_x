@@ -1,0 +1,21 @@
+.top-menu .top-left-menu{
+    width:80%;
+}
+.top-menu .top-right-menu{
+    width:20%;
+}
+.top-menu .search-bar .search{
+    height:36px;
+    border-radius: 25px;
+    width: 300px;
+    padding: 0px 20px;
+}
+.top-menu .search-bar .adv-search{
+    font-size: 10px;
+    color: #2A65EA;
+    width: 59px;
+    display: block;
+    text-align: left;
+    margin-left:10px;
+    font-weight: 600;
+}
