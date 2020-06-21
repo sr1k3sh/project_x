@@ -8,10 +8,8 @@ class PopularCard extends Component {
     componentDidMount(){
         $('.popular-card-container').hover(function(){
             $(this).addClass('hover');
-            $(this).find('.btn-popular').show();
         },function(){
                 $(this).removeClass('hover');
-                $(this).find('.btn-popular').hide();
 
         });
         // $('.popular-card-container').on('mouseout',function(){

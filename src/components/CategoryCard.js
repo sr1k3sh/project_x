@@ -8,6 +8,7 @@ class CategoryCard extends Component {
         return (
             <div class="category flex-row justify-center align-center">
                 <img src={this.props.src} alt="smart phone"></img>
+                <span className="category-title font-title bold">{this.props.title}</span>
             </div>
         );
     }

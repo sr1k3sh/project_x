@@ -78,6 +78,22 @@ ul{
   background:#dfe0e3;
   width: 180px;
   height:149px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.category:hover{
+  box-shadow: 0 0 16px 8px rgba(0,0,0,0.08);
+}
+.category .category-title{
+  color: #CBCBCB;
+  position: absolute;
+  transform-origin: center;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.category:hover .category-title{
+  opacity: 1;
 }
 .btn-primary{
   border:1px solid #fff;
@@ -87,14 +103,21 @@ ul{
 }
 .popular-card-container{
   position: relative;
-  transition: all 0.3s;
 }
-.popular-card-container.hover::before{
+.popular-card-container::before{
   content: '';
   position: absolute;
   width: 100%;
   height: 100%;
+  opacity: 0;
   background-color: rgba(28,36,32,0.4);
+  transition: all 0.3s ease-in-out;
+}
+.popular-card-container:hover{
+  box-shadow: 0 0 16px 8px rgba(0,0,0,0.08);
+}
+.popular-card-container:hover::before{
+  opacity: 1;
 }
 .popular-card-container img{
   width:380px;
@@ -116,11 +139,15 @@ ul{
   width: 123px;
   text-align: left;
 }
+.popular-card-container:hover .btn-popular{
+  opacity: 1;
+}
 .popular-card-container .btn-popular{
   position: absolute;
   right:20px;
   bottom: 10px;
-  display: none;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
 }
 .featured-card-container{
   border:1px solid #EEEEEE;
