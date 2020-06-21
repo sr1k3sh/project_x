@@ -14,7 +14,7 @@ class Banner extends Component {
                         <span className="banner-title">Selling here is the easy way to make extra money.</span>
                         <div className="flex-row justify-space-between align-center button-area">
                             <span className="banner-btn btn-primary">Register for free</span>
-                            <span className="Learn More">Learn More</span>
+                            <span className="Learn More">Learn More <span className="icon-right-open"></span></span>
                         </div>
                     </li>
                 </ul>

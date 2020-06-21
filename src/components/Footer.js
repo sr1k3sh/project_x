@@ -32,7 +32,7 @@ class Footer extends Component {
                             <li className='footer-list'>Electronics</li>
                             <li className='footer-list'>Computer</li>
                             <li className='footer-list'>Smart Watches</li>
-                            <li className="view-all footer-list">View all</li>
+                            <li className="view-all footer-list">View all <span className="icon-right-open"></span></li>
                         </ul>
                     </div>
                     <div className="footer-2">
@@ -42,7 +42,7 @@ class Footer extends Component {
                             <li className='footer-list'>Chitwan</li>
                             <li className='footer-list'>Pokhara</li>
                             <li className='footer-list'>Butwal</li>
-                            <li className="view-all footer-list">View all</li>
+                            <li className="view-all footer-list">View all <span className="icon-right-open"></span></li>
                         </ul>
                     </div>
                     <div className="footer-3">

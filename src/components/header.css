@@ -1,3 +1,6 @@
+.header{
+    position: relative;
+}
 .top-menu .top-left-menu{
     width:80%;
 }
@@ -9,6 +12,17 @@
     border-radius: 25px;
     width: 300px;
     padding: 0px 20px;
+    border:1px solid;
+}
+.top-menu .search-bar .search-input{
+    position: relative;
+}
+.top-menu .search-bar input::placeholder{
+    color:rgba(28,36,32,0.4);
+}
+.top-menu .search-bar .search-input .icon-search{
+    position: absolute;
+    right:10px;
 }
 .top-menu .search-bar .adv-search{
     font-size: 10px;
@@ -25,4 +39,5 @@
 .bottom-menu span.menus{
     font-size: 14px;
     font-weight: bold;
+    cursor: pointer;
 }
