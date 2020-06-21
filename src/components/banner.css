@@ -19,16 +19,18 @@
     width: 607px;
     text-align: left;
     font-size:50px;
+    font-weight: 300;
 }
 
 .banner ul.banner-list>li>.button-area{
     position: absolute;
-    width:500px;
-    left:4%;
+    width:270px;
+    left:10%;
     top:62%;
     color:#fff;
 }
 .banner ul.banner-list>li>.button-area>.banner-btn{
     border:1px solid #fff;
+    color:#fff;
     padding:10px 20px;
 }

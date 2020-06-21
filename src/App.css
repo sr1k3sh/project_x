@@ -2,6 +2,12 @@
   font-family: 'Manrope', sans-serif;
   box-sizing: border-box;
 }
+body{
+  color:#1c2420;
+}
+img{
+  vertical-align: bottom;
+}
 ul{
   list-style: none;
   text-align:left;
@@ -40,11 +46,20 @@ ul{
   align-items: center;
 }
 .align-left{
-  align-items: left;
+  align-items: flex-start;
 }
 .align-right{
-  align-items: right;
+  align-items: flex-end;
 }
-.main-page{
-
+.component-title{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-top:48px;
+  margin-bottom: 32px;
+}
+.category{
+  background:#dfe0e3;
+  width: 180px;
+  height:149px;
 }

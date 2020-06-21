@@ -16,3 +16,23 @@
 .footer .footer-list{
     margin-top:20px;
 }
+.footer-top .footer-middle{
+    width: 380px;
+    text-align: left;
+}
+.footer-top .footer-middle .footer-slogan{
+    font-size: 42px;
+}
+.footer-top .footer-middle .footer-slogan-text{
+    font-size: 16px;
+}
+.footer-top .footer-end{
+    width:20%;
+}
+.footer-top .footer-end .footer-end-title{
+    font-weight: bolder;
+    margin-bottom: 14px;
+}
+.footer-top .footer-end .footer-icons{
+    width:100%;
+}
