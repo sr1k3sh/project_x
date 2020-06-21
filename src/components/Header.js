@@ -25,6 +25,17 @@ class Header extends Component {
                         <img src="./icons/Avatar_Initials.png" alt="avatar"/>
                     </div>
                 </div>
+                <div className="bottom-menu flex-row justify-space-around">
+                    <span className="menus">Fashion</span>
+                    <span className="menus">Electronic</span>
+                    <span className="menus">Home & Garden</span>
+                    <span className="menus">Jewelery</span>
+                    <span className="menus">Books,Film & Music</span>
+                    <span className="menus">Art</span>
+                    <span className="menus">Sports</span>
+                    <span className="menus">Phones</span>
+                    <span className="menus">More</span>
+                </div>
             </div>
         );
     }

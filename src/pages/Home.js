@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Banner from '../components/Banner';
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -10,6 +11,7 @@ class Home extends Component {
         return (
             <div className='main-page'>
                 <Header></Header>
+                    <Banner></Banner>
                 <Footer></Footer>
             </div>
         );
