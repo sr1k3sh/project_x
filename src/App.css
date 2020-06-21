@@ -126,6 +126,10 @@ ul{
   border:1px solid #EEEEEE;
   margin-bottom: 18px;
   position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.featured-card-container:hover{
+  box-shadow: 0 0 16px 8px rgba(0,0,0,0.08);
 }
 .featured-card-details{
   padding:20px 16px;
@@ -140,6 +144,6 @@ ul{
   background: #fff;
   font-size: 14px;
 }
-.featured-card-container .product-type.used{
+.featured-card-container .product-type.new{
   background: #FFF579;
 }

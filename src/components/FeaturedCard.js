@@ -8,7 +8,7 @@ class FeaturedCard extends Component {
         return (
             <div className="featured-card-container">
                 <img src={this.props.src} alt="images"></img>
-        <span className="product-type">{this.props.type?'new':'used'}</span>
+        <span className={this.props.type?'product-type new':'product-type'}>{this.props.type?'new':'used'}</span>
                 <div className="featured-card-details flex-column justify-space-around">
                     <div className="flex-row justify-space-between align-center">
                         <span className="font-title bold">Rs. {this.props.price}</span>
