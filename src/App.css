@@ -125,8 +125,21 @@ ul{
 .featured-card-container{
   border:1px solid #EEEEEE;
   margin-bottom: 18px;
+  position: relative;
 }
 .featured-card-details{
   padding:20px 16px;
   height:124px;
+}
+.featured-card-container .product-type{
+  position:absolute;
+  top:12px;
+  left:12px;
+  padding:4px 14px;
+  border-radius: 20px;
+  background: #fff;
+  font-size: 14px;
+}
+.featured-card-container .product-type.used{
+  background: #FFF579;
 }
