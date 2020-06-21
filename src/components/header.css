@@ -19,6 +19,9 @@
     margin-left:10px;
     font-weight: 600;
 }
+.bottom-menu{
+    margin-bottom:32px;
+}
 .bottom-menu span.menus{
     font-size: 14px;
     font-weight: bold;

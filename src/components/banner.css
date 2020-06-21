@@ -27,6 +27,8 @@
     left:4%;
     top:62%;
     color:#fff;
+}
+.banner ul.banner-list>li>.button-area>.banner-btn{
     border:1px solid #fff;
-    padding:14px 20px;
+    padding:10px 20px;
 }
