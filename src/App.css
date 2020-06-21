@@ -28,6 +28,7 @@ ul{
 .flex-row{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .flex-column{
   display: flex;
@@ -51,6 +52,21 @@ ul{
 .align-right{
   align-items: flex-end;
 }
+.bold{
+  font-weight: bold;
+}
+.font-title{
+  font-size: 20px;
+}
+.font-description{
+  font-size:16px;
+}
+.font-subdescription{
+  font-size:12px;
+}
+.secondary-color{
+  color:#BEBEBE;
+}
 .component-title{
   font-size: 20px;
   font-weight: bold;
@@ -62,4 +78,55 @@ ul{
   background:#dfe0e3;
   width: 180px;
   height:149px;
+}
+.btn-primary{
+  border:1px solid #fff;
+  color:#fff;
+  padding:10px 20px;
+  cursor:pointer;
+}
+.popular-card-container{
+  position: relative;
+  transition: all 0.3s;
+}
+.popular-card-container.hover::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(28,36,32,0.4);
+}
+.popular-card-container img{
+  width:380px;
+  height:189px;
+}
+.popular-card-container .popular-title{
+  font-size: 20px;
+  font-weight: bolder;
+  color:#fff;
+  position: absolute;
+  left:20px;
+  top:10px;
+}
+.popular-card-container .price-range{
+  position: absolute;
+  color:#fff;
+  left:20px;
+  bottom: 10px;
+  width: 123px;
+  text-align: left;
+}
+.popular-card-container .btn-popular{
+  position: absolute;
+  right:20px;
+  bottom: 10px;
+  display: none;
+}
+.featured-card-container{
+  border:1px solid #EEEEEE;
+  margin-bottom: 18px;
+}
+.featured-card-details{
+  padding:20px 16px;
+  height:124px;
 }
