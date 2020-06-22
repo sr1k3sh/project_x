@@ -2,6 +2,13 @@
   font-family: 'Manrope', sans-serif;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+  color:#1c2420;
+}
+a:hover{
+  color:#1c2420;
+}
 body{
   color:#1c2420;
 }
@@ -14,7 +21,7 @@ ul{
   padding: 0;
   margin:0 auto;
 }
-a:hover{
+li>a:hover{
   color:#2A65EA;
   cursor: pointer;
 }
@@ -196,7 +203,7 @@ a:hover{
 .header-title{
   /* width?:350px; */
   justify-content: flex-end;
-  padding:10px;
+  padding-top:10px;
 }
 .header-title span{
   margin-right:20px;

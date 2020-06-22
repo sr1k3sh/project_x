@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import Banner from '../components/Banner';
-import MostPopular from '../components/MostPopular';
-import PopularItems from '../components/PopularItems';
-import FeaturedItems from '../components/FeaturedItems';
+import MainPage from './MainPage';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+import Searchpage from './Searchpage';
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -13,12 +17,18 @@ class Home extends Component {
     render() {
         return (
             <div className='main-page'>
-                <Header></Header>
-                    <Banner></Banner>
-                    <MostPopular></MostPopular>
-                    <PopularItems></PopularItems>
-                    <FeaturedItems></FeaturedItems>
-                <Footer></Footer>
+                <Router>
+                    <Header></Header>
+                        <Switch>
+                            <Route path='/search-page'>
+                                <Searchpage></Searchpage>
+                            </Route>
+                            <Route path='/'>
+                                <MainPage></MainPage>
+                            </Route>
+                        </Switch>
+                    <Footer></Footer>
+                </Router>
             </div>
         );
     }

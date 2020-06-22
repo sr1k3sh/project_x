@@ -3,6 +3,7 @@ import './header.css';
 import "./../fontello/css/fontello.css"
 import $ from 'jquery'
 import CategoryList from './CategoryList';
+import {Link} from 'react-router-dom';
 class Header extends Component {
     constructor(props) {
         super(props);
@@ -35,16 +36,16 @@ class Header extends Component {
                     <span className="font-14">NEPALI</span>
                 </div>
                 <div className="top-menu flex-row align-center justify-space-around">
-                    <div className="top-left-menu flex-row align-center justify-space-around">
+                    <div className="top-left-menu flex-row align-center justify-space-between">
                         <div className="menu-logo">
-                            <h2>Bechdey.</h2>
+                            <h2><Link to='/'>Bechdey.</Link></h2>
                         </div>
                         <div className="search-bar flex-row align-center">
                             <div className="search-input flex-row align-center">
                                 <input className="search" placeholder="search for anything"></input>
                                 <span className="icon-search"></span>
                             </div>
-                            <span class="adv-search">Advance search</span>
+                            {/* <span class="adv-search">Advance search</span> */}
                         </div>
                     </div>
                     <div className="top-right-menu flex-row justify-space-around align-center font-24">

@@ -7,12 +7,15 @@
 .top-menu .top-right-menu{
     width:20%;
 }
+.top-menu .menu-logo{
+    padding: 0 36px;
+}
 .top-menu .search-bar .search{
-    height:36px;
-    border-radius: 25px;
-    width: 300px;
+    height:43px;
+    width: 588px;
     padding: 0px 20px;
     border:1px solid;
+    display: none;
 }
 .top-menu .search-bar .search-input{
     position: relative;
@@ -38,6 +41,6 @@
 }
 .bottom-menu span.menus{
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 400;
     cursor: pointer;
 }
