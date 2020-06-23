@@ -88,6 +88,9 @@ li>a:hover{
 .secondary-color{
   color:#BEBEBE;
 }
+.margin-bottom-14{
+  margin-bottom: 14px;
+}
 .component-title{
   font-size: 20px;
   font-weight: bold;

@@ -1,8 +1,8 @@
 .search-page .search-left{
-    width:20%;
+    width:18%;
 }
 .search-page .search-right{
-    width:80%;
+    width:78%;
 }
 .search-page .search-categories{
     border-top:1px solid #DCDCDC;
@@ -17,4 +17,13 @@
     color:#1C2420;
     cursor: pointer;
     font-weight: bold;
+}
+.filter-list .filter-item{
+    margin-left:12px;
+    padding:4px 9px 4px 12px;
+    border:1px solid #EEEEEE;
+    border-radius: 13px;
+}
+.search-right-filters{
+    margin-bottom: 39px;
 }
