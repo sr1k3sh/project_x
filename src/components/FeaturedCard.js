@@ -1,30 +1,29 @@
 import React, { Component } from 'react';
-class FeaturedCard extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  };
-    }
-    render() {
+import { useHistory } from 'react-router-dom';
+function FeaturedCard(props) {
+        const history = useHistory();
+        const  navigateDetail=()=>{
+            history.push('/detail-page')
+        }
         return (
-            <div className="featured-card-container">
-                <img src={this.props.src} alt="images"></img>
-        <span className={this.props.type?'product-type new':'product-type'}>{this.props.type?'new':'used'}</span>
+            <div className="featured-card-container" onClick={navigateDetail}>
+                <img src={props.src} alt="images"></img>
+        <span className={props.type?'product-type new':'product-type'}>{props.type?'new':'used'}</span>
                 <div className="featured-card-details flex-column justify-space-around">
                     <div className="flex-row justify-space-between align-center">
-                        <span className="font-title bold">Rs. {this.props.price}</span>
+                        <span className="font-title bold">Rs. {props.price}</span>
                         <img src="./icons/heart.png" alt="images"></img>
                     </div>
                     <div className="flex-row justify-space-between">
-                        <span className="secondary-color font-description">{this.props.details}</span>
+                        <span className="secondary-color font-description">{props.details}</span>
                     </div>
                     <div className="flex-row justify-space-between">
-                        <span className="secondary-color font-subdescription">{this.props.location}</span>
-                        <span className="secondary-color font-subdescription">{this.props.date}</span>
+                        <span className="secondary-color font-subdescription">{props.location}</span>
+                        <span className="secondary-color font-subdescription">{props.date}</span>
                     </div>
                 </div>
             </div>
         );
-    }
 }
 
 export default FeaturedCard;

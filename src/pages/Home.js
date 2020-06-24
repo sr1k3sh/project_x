@@ -9,6 +9,7 @@ import {
     Link
   } from "react-router-dom";
 import Searchpage from './Searchpage';
+import DetailPage from './DetailPage';
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -22,6 +23,9 @@ class Home extends Component {
                         <Switch>
                             <Route path='/search-page'>
                                 <Searchpage></Searchpage>
+                            </Route>
+                            <Route path="/detail-page">
+                                <DetailPage title="test"></DetailPage>
                             </Route>
                             <Route path='/'>
                                 <MainPage></MainPage>

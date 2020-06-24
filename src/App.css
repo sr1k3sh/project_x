@@ -67,6 +67,9 @@ li>a:hover{
 .bold{
   font-weight: bold;
 }
+.font-500{
+  font-weight: 500;
+}
 .font-title{
   font-size: 20px;
 }
@@ -76,8 +79,14 @@ li>a:hover{
 .font-14{
   font-size:14px;
 }
+.font-18{
+  font-size: 18px;
+}
 .font-24{
   font-size: 24px;
+}
+.font-36{
+  font-size: 36px;
 }
 .font-subdescription{
   font-size:12px;
@@ -90,6 +99,36 @@ li>a:hover{
 }
 .margin-bottom-14{
   margin-bottom: 14px;
+}
+.margin-bottom-18{
+  margin-bottom: 18px;
+}
+.margin-bottom-24{
+  margin-bottom: 24px;
+}
+.margin-left-3{
+  margin-left:3px;
+}
+.padding-24{
+  padding: 24px 0;
+}
+.width-40{
+  width:40%;
+}
+.width-50{
+  width:50%;
+}
+.width-100{
+  width:100%;
+}
+.text-uppercase{
+  text-transform: uppercase;
+}
+.text-capitalize{
+  text-transform: capitalize;
+}
+.border-bottom{
+  border-bottom: 1px solid #DCDCDC;
 }
 .component-title{
   font-size: 20px;
@@ -183,6 +222,7 @@ li>a:hover{
   margin-bottom: 18px;
   position: relative;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 .featured-card-container:hover{
   box-shadow: 0 0 16px 8px rgba(0,0,0,0.08);
