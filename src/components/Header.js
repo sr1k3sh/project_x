@@ -51,7 +51,7 @@ class Header extends Component {
                     <div className="top-right-menu flex-row justify-space-around align-center font-24">
                         <span className="icon-heart-empty"></span>
                         <span className="icon-icon---cart"></span>
-                        <span className="icon-icon---profile"></span>
+                        <Link to="/profile-page"><span className="icon-icon---profile"></span></Link>
                     </div>
                 </div>
                 <div className="bottom-menu flex-row justify-space-around">

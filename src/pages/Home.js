@@ -10,6 +10,10 @@ import {
   } from "react-router-dom";
 import Searchpage from './Searchpage';
 import DetailPage from './DetailPage';
+import SignIn from './SignIn';
+import SignUp from './SignUp';
+import ProfilePage from './ProfilePage';
+import PasswordReset from './PasswordReset';
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -26,6 +30,18 @@ class Home extends Component {
                             </Route>
                             <Route path="/detail-page">
                                 <DetailPage title="test"></DetailPage>
+                            </Route>
+                            <Route path="/sign-in">
+                                <SignIn></SignIn>
+                            </Route>
+                            <Route path="/sign-up">
+                                <SignUp></SignUp>
+                            </Route>
+                            <Route path="/profile-page">
+                                <ProfilePage></ProfilePage>
+                            </Route>
+                            <Route path="/password-reset">
+                                <PasswordReset></PasswordReset>
                             </Route>
                             <Route path='/'>
                                 <MainPage></MainPage>
