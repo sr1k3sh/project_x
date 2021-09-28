@@ -5,8 +5,7 @@ import MainPage from './MainPage';
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link
+    Route
   } from "react-router-dom";
 import Searchpage from './Searchpage';
 import DetailPage from './DetailPage';

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Title from './Title';
 import FeaturedCard from './FeaturedCard';
 import gql from "graphql-tag";
-import { ApolloProvider, Query } from 'react-apollo';
+import { Query } from 'react-apollo';
 class FeaturedItems extends Component {
     constructor(props) {
         super(props);
@@ -10,7 +10,7 @@ class FeaturedItems extends Component {
     }
     render() {
         return (
-            
+
             <div className="featured-item-container flex-column">
                 <div className="featured-item-title flex-row align-left">
                     <Title title="Featured Items"></Title>
@@ -35,7 +35,7 @@ class FeaturedItems extends Component {
                         ))
                         }}
                     </Query>
-                    
+
                 </div>
             </div>
         );

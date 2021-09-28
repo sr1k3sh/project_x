@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import BreadCrumb from '../library/BreadCrumb';
 import Button from '../library/Button';
 import FeaturedCard from '../components/FeaturedCard';
@@ -10,10 +10,10 @@ const DetailPage = (props) => {
                 <div className="flex-column slider" style={{paddingRight:10}}>
                     <img src="./icons/bike.png"></img>
                     <div className="flex-row justify-space-between" style={{marginTop:'12px'}}>
-                        <img src="./icons/bike1.png"></img>
-                        <img src="./icons/bike2.png"></img>
-                        <img src="./icons/bike3.png"></img>
-                        <img src="./icons/bike4.png"></img>
+                        <img src="./icons/bike1.png" alt="test"></img>
+                        <img src="./icons/bike2.png" alt="test"></img>
+                        <img src="./icons/bike3.png" alt="test"></img>
+                        <img src="./icons/bike4.png" alt="test"></img>
                     </div>
                 </div>
                 <div className="flex-column details width-50" style={{paddingLeft:10}}>

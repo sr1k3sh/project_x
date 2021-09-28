@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import { ApolloClient } from "apollo-client";
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import { HttpLink } from 'apollo-link-http';
-import { ApolloProvider, Query } from 'react-apollo';
+import { ApolloProvider } from 'react-apollo';
 import UserProvider from './providers/UserProvider';
 
 const cache = new InMemoryCache();

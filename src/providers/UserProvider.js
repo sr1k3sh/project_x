@@ -4,7 +4,7 @@ export const UserContext = createContext({ user: null });
 class UserProvider extends Component {
     constructor(props) {
         super(props);
-        this.state = { 
+        this.state = {
             user:null
          };
     }

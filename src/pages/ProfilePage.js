@@ -1,9 +1,7 @@
 import React, { useContext } from 'react';
 import { UserContext } from '../providers/UserProvider';
 import { auth } from './../firebase/Firebase';
-import { useHistory } from 'react-router-dom';
 const ProfilePage = () => {
-    const history = useHistory();
     const user = useContext(UserContext);
     if(user!==null && typeof user!='undefined'){
         const {photoURL, displayName, email} = user;
@@ -28,7 +26,7 @@ const ProfilePage = () => {
                 <h3 className = "italic">{email}</h3>
                 </div>
               </div>
-              
+
               <button className = "w-full py-3 bg-red-600 mt-4 text-white" onClick={()=>{auth.signOut()}}>Sign out</button>
             </div>
           );
