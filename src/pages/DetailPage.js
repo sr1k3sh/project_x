@@ -8,7 +8,7 @@ const DetailPage = (props) => {
             <BreadCrumb></BreadCrumb>
             <div className="flex-row">
                 <div className="flex-column slider" style={{paddingRight:10}}>
-                    <img src="./icons/bike.png"></img>
+                    <img src="./icons/bike.png" alt="test"></img>
                     <div className="flex-row justify-space-between" style={{marginTop:'12px'}}>
                         <img src="./icons/bike1.png" alt="test"></img>
                         <img src="./icons/bike2.png" alt="test"></img>

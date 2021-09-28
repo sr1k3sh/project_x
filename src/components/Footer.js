@@ -10,7 +10,7 @@ class Footer extends Component {
             <Fragment>
                 <div className="footer-top flex-row justify-space-around">
                     <div className="footer-image">
-                        <img src="./icons/mobile.png" alt="image"></img>
+                        <img src="./icons/mobile.png" alt="mobile"></img>
                     </div>
                     <div className="footer-middle flex-column justify-center">
                         <span className="footer-slogan">Download the app today</span>
@@ -58,7 +58,7 @@ class Footer extends Component {
                         <ul>
                             <li className='footer-title'>Follow us</li>
                             <li className='footer-list'>FaceBook</li>
-                            <li className='footer-list'>Instagram</li>      
+                            <li className='footer-list'>Instagram</li>
                         </ul>
                     </div>
                 </div>
