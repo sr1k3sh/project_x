@@ -15,7 +15,7 @@ class FeaturedItems extends Component {
                 <div className="featured-item-title flex-row align-left">
                     <Title title="Featured Items"></Title>
                 </div>
-                <div className="featured-item-card flex-row justify-space-between">
+                <div className="featured-item-card flex-row justify-space-around">
                     <Query query={gql`
                             {
                                 featureditems{
@@ -28,6 +28,7 @@ class FeaturedItems extends Component {
                             }
                         `}>
                         {({loading,error,data})=>{
+                            console.log(loading,data,error)
                         if(loading) return <p>loading..</p>
                         if(error) return <p>erro loadgin</p>
                         return data.featureditems.map(({id,price,description,location,date})=>(

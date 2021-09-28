@@ -149,6 +149,7 @@ li>a:hover{
   height:149px;
   position: relative;
   cursor: pointer;
+  margin-bottom: 20px;
   transition: all 0.3s ease-in-out;
 }
 .category:hover{
@@ -171,12 +172,16 @@ li>a:hover{
   cursor:pointer;
   transition: 0.3s all ease-in-out;
 }
+.btn-primary>a{
+  color: #fff;
+}
 .btn-primary:hover{
   background: #fff;
   color:#1c2420;
 }
 .popular-card-container{
   position: relative;
+  margin-bottom: 20px;
 }
 .popular-card-container::before{
   content: '';

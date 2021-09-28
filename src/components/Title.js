@@ -6,7 +6,7 @@ class Title extends Component {
     }
     render() {
         return (
-            <span class="component-title">{this.props.title}</span>
+            <span className="component-title">{this.props.title}</span>
         );
     }
 }

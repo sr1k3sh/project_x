@@ -25,7 +25,13 @@ class Header extends Component {
                 });
                 $(this).addClass('active brand-color');
             }
-        })
+        });
+        $(document).on('click',function(e){
+            if($(e.target).hasClass("menus-more")) return false;
+            if($(".category-list-container").has(e.target).length === 0){
+                $('.category-list-container').fadeOut();
+            }
+        });
     }
     render() {
         return (

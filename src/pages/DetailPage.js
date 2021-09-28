@@ -6,7 +6,7 @@ const DetailPage = (props) => {
     return (
         <div className="detail-page flex-column">
             <BreadCrumb></BreadCrumb>
-            <div className="flex-row">
+            <div className="flex-row justify-center">
                 <div className="flex-column slider" style={{paddingRight:10}}>
                     <img src="./icons/bike.png" alt="test"></img>
                     <div className="flex-row justify-space-between" style={{marginTop:'12px'}}>

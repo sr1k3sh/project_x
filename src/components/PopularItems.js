@@ -12,7 +12,7 @@ class PopularItems extends Component {
                 <div className="popular-item-title flex-row align-left">
                     <Title title="Popular Items"></Title>
                 </div>
-                <div className="popular-item-card flex-row justify-space-between">
+                <div className="popular-item-card flex-row justify-space-around">
                     <PopularCard src="./icons/watch.jpg" title="Smart watch" range="12,000" btnText="View all"></PopularCard>
                     <PopularCard src="./icons/headphones.jpg" title="Headphones" range="1200" btnText="View all"></PopularCard>
                     <PopularCard src="./icons/speaker.jpg" title="Speakers" range="1000" btnText="View all"></PopularCard>
